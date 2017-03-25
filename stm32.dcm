@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F030C
+D 32-bit ARM Cortex-M0 Microcontroller with 48 MHz clock, 32 to 256 KB Flash, 4 to 32 KB SRAM
+$ENDCMP
+#
+#End Doc Library
