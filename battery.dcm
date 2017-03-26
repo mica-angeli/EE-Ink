@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP73831
+D Linear LiPo Charge Controller, Ideal for charging from USB
+$ENDCMP
+#
+#End Doc Library

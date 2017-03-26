@@ -1,4 +1,4 @@
-update=3/25/2017 7:49:52 PM
+update=3/25/2017 8:11:27 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,6 @@ LibName28=contrib
 LibName29=valves
 LibName30=stm32
 LibName31=e-ink
+LibName32=battery
 [general]
 version=1
