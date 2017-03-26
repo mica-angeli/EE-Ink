@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT230XS
+D FTDI USB to Serial UART Interface
+$ENDCMP
+#
+#End Doc Library
