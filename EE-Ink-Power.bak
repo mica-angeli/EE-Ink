@@ -1646,34 +1646,4 @@ Wire Wire Line
 	3500 2050 3500 2200
 Wire Wire Line
 	2750 2450 2050 2450
-Text GLabel 2600 8500 0    60   BiDi ~ 0
-REG_EN
-Text Label 3500 8500 2    60   ~ 0
-REG_EN
-Text Label 3500 8650 2    60   ~ 0
-REG_15P_EN
-Wire Wire Line
-	2600 8500 3500 8500
-Text GLabel 2800 8650 0    60   BiDi ~ 0
-REG_15P_EN
-Wire Wire Line
-	3500 8650 2800 8650
-Text Label 3500 8800 2    60   ~ 0
-REG_15M_EN
-Text GLabel 2800 8800 0    60   BiDi ~ 0
-REG_15M_EN
-Wire Wire Line
-	3500 8800 2800 8800
-Text Label 3500 8950 2    60   ~ 0
-REG_22P_EN
-Text GLabel 2800 8950 0    60   BiDi ~ 0
-REG_22P_EN
-Wire Wire Line
-	3500 8950 2800 8950
-Text Label 3500 9100 2    60   ~ 0
-REG_20M_EN
-Text GLabel 2800 9100 0    60   BiDi ~ 0
-REG_20M_EN
-Wire Wire Line
-	3500 9100 2800 9100
 $EndSCHEMATC
