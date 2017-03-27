@@ -778,11 +778,6 @@ Wire Wire Line
 Wire Wire Line
 	8550 5700 8550 5200
 Wire Wire Line
-	8550 5200 9400 5200
-Wire Wire Line
-	9400 5050 9400 5250
-Connection ~ 9400 5200
-Wire Wire Line
 	9000 5300 9000 5200
 Connection ~ 9000 5200
 Wire Wire Line
@@ -921,7 +916,7 @@ F 3 "" H 9400 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 5100 9200 5200
+	9200 5200 9200 5100
 Connection ~ 9200 5200
 $Comp
 L TEST_1P W6
@@ -1676,4 +1671,9 @@ Wire Wire Line
 	3500 9100 2800 9100
 Wire Wire Line
 	1650 1500 2550 1500
+Wire Wire Line
+	9400 5250 9400 5050
+Wire Wire Line
+	8550 5200 9400 5200
+Connection ~ 9400 5200
 $EndSCHEMATC

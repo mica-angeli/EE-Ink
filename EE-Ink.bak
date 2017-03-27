@@ -873,4 +873,6 @@ Text GLabel 1250 9200 0    60   BiDi ~ 0
 REG_20M_EN
 Wire Wire Line
 	1950 9200 1250 9200
+Text Notes 7350 1850 0    60   ~ 0
+Is it OK to drive this LED directly?
 $EndSCHEMATC
