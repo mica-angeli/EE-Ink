@@ -32,6 +32,7 @@ LIBS:stm32
 LIBS:e-ink
 LIBS:battery
 LIBS:ftdi
+LIBS:ESP32-footprints-Shem-Lib
 LIBS:EE-Ink-cache
 EELAYER 25 0
 EELAYER END

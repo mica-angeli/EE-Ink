@@ -1,4 +1,4 @@
-update=3/28/2017 10:02:59 PM
+update=3/30/2017 11:11:32 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,5 +60,6 @@ LibName30=stm32
 LibName31=e-ink
 LibName32=battery
 LibName33=ftdi
+LibName34=ESP32-footprints-Shem-Lib
 [general]
 version=1
