@@ -1555,4 +1555,6 @@ Text GLabel 2600 9400 0    60   BiDi ~ 0
 FTDI_DM
 Text GLabel 2600 9250 0    60   BiDi ~ 0
 FTDI_DP
+Text Notes 5200 4900 2    60   ~ 0
+Replace with 500ma voltage regulator.
 $EndSCHEMATC
