@@ -821,4 +821,82 @@ Text Label 10800 5100 2    60   ~ 0
 FTDI_DSR
 NoConn ~ 10300 5300
 NoConn ~ 10300 5200
+$Comp
+L R R?
+U 1 1 58E07741
+P 6350 1050
+F 0 "R?" V 6400 1200 50  0000 C CNN
+F 1 "0" V 6350 1050 50  0000 C CNN
+F 2 "" V 6280 1050 50  0001 C CNN
+F 3 "" H 6350 1050 50  0001 C CNN
+	1    6350 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58E07958
+P 6350 1200
+F 0 "R?" V 6400 1350 50  0000 C CNN
+F 1 "0" V 6350 1200 50  0000 C CNN
+F 2 "" V 6280 1200 50  0001 C CNN
+F 3 "" H 6350 1200 50  0001 C CNN
+	1    6350 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58E07A7F
+P 6350 1350
+F 0 "R?" V 6400 1500 50  0000 C CNN
+F 1 "0" V 6350 1350 50  0000 C CNN
+F 2 "" V 6280 1350 50  0001 C CNN
+F 3 "" H 6350 1350 50  0001 C CNN
+	1    6350 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58E07AC1
+P 6350 1500
+F 0 "R?" V 6400 1650 50  0000 C CNN
+F 1 "0" V 6350 1500 50  0000 C CNN
+F 2 "" V 6280 1500 50  0001 C CNN
+F 3 "" H 6350 1500 50  0001 C CNN
+	1    6350 1500
+	0    -1   -1   0   
+$EndComp
+Text Label 7000 1200 2    60   ~ 0
+FTDI_RX
+Text Label 7000 1050 2    60   ~ 0
+FTDI_TX
+Wire Wire Line
+	6500 1050 7000 1050
+Wire Wire Line
+	6500 1200 7000 1200
+Wire Wire Line
+	6500 1350 7000 1350
+Wire Wire Line
+	6500 1500 7000 1500
+Text Label 7000 1350 2    60   ~ 0
+FTDI_RTS
+Text Label 7000 1500 2    60   ~ 0
+FTDI_CTS
+Wire Wire Line
+	6200 1500 5700 1500
+Text Label 5700 1500 0    60   ~ 0
+ESP_IO15
+Wire Wire Line
+	6200 1050 5700 1050
+Wire Wire Line
+	6200 1200 5700 1200
+Wire Wire Line
+	6200 1350 5700 1350
+Text Label 5700 1350 0    60   ~ 0
+ESP_IO13
+Text Label 5700 1200 0    60   ~ 0
+ESP_TX
+Text Label 5700 1050 0    60   ~ 0
+ESP_RX
+Text Notes 4500 1500 0    60   ~ 0
+   Auto Program\nDTR RTS-->EN IO0\n 1    1      1   1\n 0    0      1   1\n 1    0      0   1\n 0    1      1   0
 $EndSCHEMATC
