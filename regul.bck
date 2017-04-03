@@ -2446,6 +2446,10 @@ $CMP MCP1802
 D Low Droupout Voltage Regulator, 300 mA, High PSRR, Low Quiescent Current
 $ENDCMP
 #
+$CMP MCP1825S
+D 500 mA, Low Voltage, Low Quiescent Current LDO Regulator
+$ENDCMP
+#
 $CMP MCP1826S
 D 1000 mA, Low-Voltage, Low Quiescent Current LDO Regulator
 K regulator linear ldo
