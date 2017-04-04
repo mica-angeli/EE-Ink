@@ -1555,4 +1555,14 @@ Connection ~ 4150 5800
 Wire Wire Line
 	4250 5650 4250 5800
 Connection ~ 4250 5800
+Text Notes 7350 7500 0    60   ~ 12
+EE-Ink ( Power Circuit )
+Text Notes 7050 6900 0    60   ~ 0
+This board drives an ED060SC4-compatible e-ink display and uses an ESP32 as\nthe brains.  It is powered by a lithium-ion battery and includes a built-in charge\ncontroller.  It also features built-in programming and charging via USB.
+Text Notes 7050 7100 0    60   ~ 12
+Ricardo Angeli <rangeli93@gmail.com>
+Text Notes 8150 7650 0    60   ~ 0
+4/2/2017
+Text Notes 10550 7650 0    60   ~ 12
+A
 $EndSCHEMATC
