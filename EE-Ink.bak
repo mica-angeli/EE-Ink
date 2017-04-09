@@ -886,7 +886,7 @@ L C_Small C?
 U 1 1 58E22FC2
 P 3250 6850
 F 0 "C?" H 3150 6950 50  0000 L CNN
-F 1 "100uF" H 3250 6750 50  0000 L CNN
+F 1 "1nF" H 3250 6750 50  0000 L CNN
 F 2 "" H 3250 6850 50  0001 C CNN
 F 3 "" H 3250 6850 50  0001 C CNN
 	1    3250 6850
@@ -1246,4 +1246,46 @@ F 3 "" H 10050 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10050 2100 10050 2200
+Text Notes 5750 2750 0    40   ~ 0
+Input only pins
+Wire Notes Line
+	6400 2600 6300 2600
+Wire Notes Line
+	6300 2600 6300 2900
+Wire Notes Line
+	6300 2750 5750 2750
+Wire Notes Line
+	6400 2700 6300 2700
+Wire Notes Line
+	6300 2800 6400 2800
+Wire Notes Line
+	6300 2900 6400 2900
+Text Notes 5750 3050 0    40   ~ 0
+RTC by default
+Wire Notes Line
+	5750 3050 6300 3050
+Wire Notes Line
+	6300 3000 6300 3100
+Wire Notes Line
+	6300 3000 6400 3000
+Wire Notes Line
+	6300 3100 6400 3100
+Text Notes 7400 4700 1    40   ~ 0
+Internal FLASH
+Wire Notes Line
+	7150 4200 7650 4200
+Wire Notes Line
+	7150 4200 7150 4100
+Wire Notes Line
+	7250 4200 7250 4100
+Wire Notes Line
+	7350 4200 7350 4100
+Wire Notes Line
+	7550 4200 7550 4100
+Wire Notes Line
+	7650 4200 7650 4100
+Wire Notes Line
+	7400 4700 7400 4200
+Wire Notes Line
+	7450 4100 7450 4200
 $EndSCHEMATC

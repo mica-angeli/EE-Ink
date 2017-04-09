@@ -1,4 +1,4 @@
-update=4/3/2017 11:50:23 PM
+update=4/9/2017 1:06:01 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,5 +61,15 @@ LibName31=e-ink
 LibName32=battery
 LibName33=ftdi
 LibName34=ESP32-footprints-Shem-Lib
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
