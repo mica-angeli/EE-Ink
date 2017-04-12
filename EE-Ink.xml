@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/mrrat/Documents/KiCad/EE-Ink/EE-Ink.sch</source>
-    <date>4/9/2017 1:16:27 PM</date>
+    <date>4/11/2017 9:06:52 PM</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -34,6 +34,7 @@
   <components>
     <comp ref="U1">
       <value>ED060SC4</value>
+      <footprint>Connectors-Custom4:HIROSE_FH26-39-PIN-0.3mm</footprint>
       <libsource lib="e-ink" part="ED060SC4"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58D7DC1F</tstamp>
@@ -47,60 +48,70 @@
     </comp>
     <comp ref="D2">
       <value>LED_Small</value>
+      <footprint>LEDs:LED_0805</footprint>
       <libsource lib="device" part="LED_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58DF5069</tstamp>
     </comp>
     <comp ref="D3">
       <value>LED_Small</value>
+      <footprint>LEDs:LED_0805</footprint>
       <libsource lib="device" part="LED_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58DF5070</tstamp>
     </comp>
     <comp ref="R13">
       <value>470</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58DF5077</tstamp>
     </comp>
     <comp ref="R14">
       <value>470</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58DF507E</tstamp>
     </comp>
     <comp ref="C5">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58DF5094</tstamp>
     </comp>
     <comp ref="U4">
       <value>FT231XS</value>
+      <footprint>Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
       <libsource lib="ftdi" part="FT231XS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58DF4F11</tstamp>
     </comp>
     <comp ref="R9">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E07741</tstamp>
     </comp>
     <comp ref="R10">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E07958</tstamp>
     </comp>
     <comp ref="R11">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E07A7F</tstamp>
     </comp>
     <comp ref="R12">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E07AC1</tstamp>
@@ -121,402 +132,469 @@
     </comp>
     <comp ref="R1">
       <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E19CDA</tstamp>
     </comp>
     <comp ref="R2">
       <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E1A1D7</tstamp>
     </comp>
     <comp ref="C2">
       <value>100uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E1EFA8</tstamp>
     </comp>
     <comp ref="C4">
       <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E1F1A3</tstamp>
     </comp>
     <comp ref="R3">
       <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E22CAC</tstamp>
     </comp>
     <comp ref="C1">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E22FC2</tstamp>
     </comp>
     <comp ref="R4">
       <value>5k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E27988</tstamp>
     </comp>
     <comp ref="R6">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E32D81</tstamp>
     </comp>
     <comp ref="R7">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E32D87</tstamp>
     </comp>
     <comp ref="R5">
       <value>5k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E5E04A</tstamp>
     </comp>
     <comp ref="U2">
       <value>74LV4094</value>
+      <footprint>Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm</footprint>
       <libsource lib="74xx" part="74LV4094"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E31DC4</tstamp>
     </comp>
     <comp ref="C3">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E471D5</tstamp>
     </comp>
     <comp ref="Q3">
       <value>MMUN2211</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <libsource lib="transistors" part="DTC114E"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E4DFD0</tstamp>
     </comp>
     <comp ref="R8">
       <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E50804</tstamp>
     </comp>
     <comp ref="D1">
       <value>LED_Small</value>
+      <footprint>LEDs:LED_0805</footprint>
       <libsource lib="device" part="LED_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58E50A54</tstamp>
     </comp>
     <comp ref="U8">
       <value>LT1945</value>
+      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
       <libsource lib="power" part="LT1945"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29C4B</tstamp>
     </comp>
     <comp ref="L3">
       <value>22uH</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="L"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29C88</tstamp>
     </comp>
     <comp ref="Q5">
       <value>IRLML6402</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <libsource lib="device" part="Q_PMOS_GSD"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29C92</tstamp>
     </comp>
     <comp ref="D7">
       <value>SS24</value>
+      <footprint>SMD_Packages-Custom:DO-214AA</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29C9F</tstamp>
     </comp>
     <comp ref="C12">
       <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29CA6</tstamp>
     </comp>
     <comp ref="L1">
       <value>22uH</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="L"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29CC2</tstamp>
     </comp>
     <comp ref="R20">
       <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29CD3</tstamp>
     </comp>
     <comp ref="R21">
       <value>47k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29CDF</tstamp>
     </comp>
     <comp ref="C14">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29CEA</tstamp>
     </comp>
     <comp ref="D9">
       <value>SS24</value>
+      <footprint>SMD_Packages-Custom:DO-214AA</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29CF4</tstamp>
     </comp>
     <comp ref="R28">
       <value>402k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D03</tstamp>
     </comp>
     <comp ref="C18">
       <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D0A</tstamp>
     </comp>
     <comp ref="R29">
       <value>38k3</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D18</tstamp>
     </comp>
     <comp ref="C16">
       <value>4p7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D29</tstamp>
     </comp>
     <comp ref="R24">
       <value>402k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D30</tstamp>
     </comp>
     <comp ref="R25">
       <value>36k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D37</tstamp>
     </comp>
     <comp ref="D5">
       <value>SS24</value>
+      <footprint>SMD_Packages-Custom:DO-214AA</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D43</tstamp>
     </comp>
     <comp ref="U9">
       <value>LT1945</value>
+      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
       <libsource lib="power" part="LT1945"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D5B</tstamp>
     </comp>
     <comp ref="L4">
       <value>22uH</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="L"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D64</tstamp>
     </comp>
     <comp ref="Q6">
       <value>IRLML6402</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <libsource lib="device" part="Q_PMOS_GSD"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D6E</tstamp>
     </comp>
     <comp ref="D8">
       <value>SS24</value>
+      <footprint>SMD_Packages-Custom:DO-214AA</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D7B</tstamp>
     </comp>
     <comp ref="C13">
       <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D82</tstamp>
     </comp>
     <comp ref="L2">
       <value>22uH</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="L"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29D9E</tstamp>
     </comp>
     <comp ref="R22">
       <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29DAF</tstamp>
     </comp>
     <comp ref="R23">
       <value>47k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29DBB</tstamp>
     </comp>
     <comp ref="C15">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29DC6</tstamp>
     </comp>
     <comp ref="D10">
       <value>SS24</value>
+      <footprint>SMD_Packages-Custom:DO-214AA</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29DD0</tstamp>
     </comp>
     <comp ref="R30">
       <value>470k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29DDF</tstamp>
     </comp>
     <comp ref="C19">
       <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29DE6</tstamp>
     </comp>
     <comp ref="R31">
       <value>33k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29DF4</tstamp>
     </comp>
     <comp ref="C17">
       <value>4p7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E0B</tstamp>
     </comp>
     <comp ref="R26">
       <value>560k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E18</tstamp>
     </comp>
     <comp ref="R27">
       <value>33k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E1F</tstamp>
     </comp>
     <comp ref="D6">
       <value>SS24</value>
+      <footprint>SMD_Packages-Custom:DO-214AA</footprint>
       <libsource lib="device" part="D_Schottky"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E2B</tstamp>
     </comp>
     <comp ref="W10">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E4F</tstamp>
     </comp>
     <comp ref="W8">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E56</tstamp>
     </comp>
     <comp ref="W4">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E5F</tstamp>
     </comp>
     <comp ref="W5">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E68</tstamp>
     </comp>
     <comp ref="W2">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E71</tstamp>
     </comp>
     <comp ref="W3">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E78</tstamp>
     </comp>
     <comp ref="W11">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E7F</tstamp>
     </comp>
     <comp ref="W9">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E86</tstamp>
     </comp>
     <comp ref="W6">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E8F</tstamp>
     </comp>
     <comp ref="W7">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F29E98</tstamp>
     </comp>
     <comp ref="Q4">
       <value>IRLML6402</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <libsource lib="device" part="Q_PMOS_GSD"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F2D149</tstamp>
     </comp>
     <comp ref="C9">
       <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F2D157</tstamp>
     </comp>
     <comp ref="C11">
       <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F2D175</tstamp>
     </comp>
     <comp ref="U5">
       <value>LM358</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <libsource lib="linear" part="LM358"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F2EA3B</tstamp>
     </comp>
     <comp ref="RV1">
       <value>100k</value>
+      <footprint>Potentiometers-Custom:TT-Electronics_Pot_23B</footprint>
       <libsource lib="device" part="POT"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F2EA42</tstamp>
     </comp>
     <comp ref="R15">
       <value>200k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F2EA49</tstamp>
     </comp>
     <comp ref="W1">
       <value>TEST_1P</value>
+      <footprint>Connectors-Custom4:TEST-POINT</footprint>
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F2EA5C</tstamp>
     </comp>
     <comp ref="C8">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F2EA69</tstamp>
@@ -531,66 +609,77 @@
     </comp>
     <comp ref="J1">
       <value>USB_A</value>
+      <footprint>Connectors-Custom3:SMT-Micro-USB-AB</footprint>
       <libsource lib="conn" part="USB_A"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F3807A</tstamp>
     </comp>
     <comp ref="R18">
       <value>470</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F38088</tstamp>
     </comp>
     <comp ref="D4">
       <value>LED_Small</value>
+      <footprint>LEDs:LED_0805</footprint>
       <libsource lib="device" part="LED_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F3808F</tstamp>
     </comp>
     <comp ref="R19">
       <value>2k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F3809C</tstamp>
     </comp>
     <comp ref="BT1">
       <value>3.7V Li-Ion</value>
+      <footprint>Connectors-Custom:TERMINAL-BLOCK-3.5MM-2POS</footprint>
       <libsource lib="device" part="Battery_Cell"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F380A9</tstamp>
     </comp>
     <comp ref="C10">
       <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F380B0</tstamp>
     </comp>
     <comp ref="R16">
       <value>27</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F380F1</tstamp>
     </comp>
     <comp ref="R17">
       <value>27</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F380F8</tstamp>
     </comp>
     <comp ref="C6">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F380FF</tstamp>
     </comp>
     <comp ref="C7">
       <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58F3810C</tstamp>
     </comp>
     <comp ref="U7">
       <value>MCP1825S</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223</footprint>
       <libsource lib="regul" part="MCP1825S"/>
       <sheetpath names="/EE-Ink-Power/" tstamps="/58F25065/"/>
       <tstamp>58E808DC</tstamp>
@@ -1040,14 +1129,14 @@
     <library logical="74xx">
       <uri>C:\Users\mrrat\Documents\KiCad\EE-Ink\74xx.lib</uri>
     </library>
-    <library logical="e-ink">
-      <uri>C:\Users\mrrat\Documents\KiCad\EE-Ink\e-ink.lib</uri>
-    </library>
     <library logical="battery">
       <uri>C:\Users\mrrat\Documents\KiCad\EE-Ink\battery.lib</uri>
     </library>
     <library logical="ftdi">
       <uri>C:\Users\mrrat\Documents\KiCad\EE-Ink\ftdi.lib</uri>
+    </library>
+    <library logical="e-ink">
+      <uri>C:\Users\mrrat\Documents\KiCad\EE-Ink\e-ink.lib</uri>
     </library>
     <library logical="ESP32-footprints-Shem-Lib">
       <uri>C:\Users\mrrat\Documents\KiCad\EE-Ink\ESP32-footprints-Shem-Lib.lib</uri>
